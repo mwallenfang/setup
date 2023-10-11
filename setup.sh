@@ -8,16 +8,13 @@ Include = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 pacman -Syu base-devel git python
 
 # system basics
-pacman -Syu networkmanager pipewire lib32-pipewire pipewire-audio pipewire-alsa \ 
-pipewire-pulse pipewire-jack
+pacman -Syu networkmanager pipewire lib32-pipewire pipewire-audio pipewire-alsa pipewire-pulse pipewire-jack man-db
 
 # UI
 pacman -Syu awesome lightdm lightdm-slik-greeter dmenu picom
 
 # Software
-pacman -Syu alacritty xterm firefox wireplumber code discord qpwgraph \
-curl ffmpeg filezilla thunderbird gwenview vlc dolphin htop lshw blueman print-manager \
-libreoffice-still okular gnome-screenshot spotify-launcher neofetch
+pacman -Syu alacritty xterm firefox wireplumber code discord qpwgraph curl ffmpeg filezilla thunderbird gwenview vlc dolphin htop lshw blueman print-manager libreoffice-still okular gnome-screenshot spotify-launcher neofetch
 
 # Graphics drivers
 pacman -Syu vulkan-icd-loader lib32-vulkan-icd-loader nvidia-utils lib32-nvidia-utils
