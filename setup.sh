@@ -17,7 +17,7 @@ pacman -Syu awesome lightdm lightdm-slik-greeter dmenu picom
 pacman -Syu alacritty xterm firefox wireplumber code discord qpwgraph curl ffmpeg filezilla thunderbird gwenview vlc dolphin htop lshw blueman print-manager libreoffice-still okular gnome-screenshot spotify-launcher neofetch
 
 # Graphics drivers
-pacman -Syu vulkan-icd-loader lib32-vulkan-icd-loader nvidia-utils lib32-nvidia-utils
+pacman -Syu vulkan-icd-loader lib32-vulkan-icd-loader nvidia-utils lib32-nvidia-utils qt5ct
 
 # Steam :)
 pacman -Syu ttf-liberation wqy-zenhei steam
